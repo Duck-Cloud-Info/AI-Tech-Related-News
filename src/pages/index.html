@@ -11,7 +11,7 @@
   <header class="p-5 bg-blue-600 text-white">
     <div class="container mx-auto text-center">
       <h1 class="text-4xl font-bold">AI-Powered Tech News</h1>
-      <p class="text-lg mt-2">Stay updated with the latest AI and tech news, powered by Gemini & NVIDIA APIs.</p>
+      <p class="text-lg mt-2">Stay updated with the latest AI and tech news, powered by Mediastack APIs.</p>
     </div>
   </header>
 
@@ -22,9 +22,6 @@
     <div id="loading-spinner" class="hidden text-center">
       <p class="text-gray-500">Loading news...</p>
     </div>
-    <button id="export-button" class="mt-5 bg-blue-600 text-white px-4 py-2 rounded">
-      Export Archived News to Excel
-    </button>
   </main>
 
   <footer class="p-5 bg-gray-800 text-white text-center">
@@ -32,12 +29,5 @@
   </footer>
 
   <script src="../js/api-fetcher.js"></script>
-  <script src="../js/export-to-excel.js"></script>
-  <script>
-    const newsSection = document.getElementById('news-section');
-    if (data.articles.length === 0) {
-      newsSection.innerHTML = '<p class="text-gray-500">No news available at the moment. Please check back later.</p>';
-    }
-  </script>
 </body>
 </html>

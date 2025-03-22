@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  },
+  "scripts": {
+    "dev": "http-server ./src -o"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

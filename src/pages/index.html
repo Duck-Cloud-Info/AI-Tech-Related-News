@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tech News - DuckCloud</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/global.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="p-5 bg-blue-600 text-white">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">AI-Powered Tech News</h1>
+      <p class="text-lg mt-2">Stay updated with the latest AI and tech news, powered by Mediastack APIs.</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-5">
+    <section id="news-section" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- AI-Generated News Articles will be injected here by JavaScript -->
+    </section>
+    <div id="loading-spinner" class="hidden text-center">
+      <p class="text-gray-500">Loading news...</p>
+    </div>
+  </main>
+
+  <footer class="p-5 bg-gray-800 text-white text-center">
+    <p>&copy; 2025 DuckCloud - AI Tech News Platform</p>
+  </footer>
+
+  <script src="../js/api-fetcher.js"></script>
+</body>
+</html>

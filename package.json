@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "node-cron": "^3.0.3"
+  },
+  "scripts": {
+    "start:scheduler": "node src/js/scheduler.js"
+  }
+}
